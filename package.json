@@ -1,0 +1,17 @@
+{
+  "name": "ripple",
+  "version": "0.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "start": "budo index.js --live --css app.css -- -t babelify"
+  },
+  "devDependencies": {
+    "babel-preset-latest": "^6.16.0",
+    "babelify": "^7.3.0",
+    "budo": "^9.3.0"
+  },
+  "dependencies": {
+    "tinycolor2": "^1.4.1"
+  }
+}
